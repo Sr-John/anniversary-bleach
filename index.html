@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bleach</title>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <link rel="stylesheet" href="bleach.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <section class="bankai">
+            <video class="bankai__background" loop autoplay muted>
+                <source src="./video/Vídeo sem título ‐ Feito com o Clipchamp.mp4" type="video/mp4"muted />
+            </video>
+            <div class="bankai__foreground">
+                <h1 class="bankai__title">Bleach 20th Anniversary</h1>
+                <p class="bankai__text">
+                    Celebrate 20 years of Bleach with this exclusive volume featuring cover art from the series launch
+                    on August 20, 2001 in Weekly Shonen Jump magazine
+                </p>
+            </div>
+        </section>
+
+        <section class="getsuga">
+            <h2 class="getsuga__title">20 YEARS OF BLEACH: A NEW BEGINNING</h2>
+            <img class="getsuga__img" src="img/Bleach-Special-01-1024x750.png.webp" alt="20 anos de Bleach" />
+            <p class="getsuga__text">
+                The great curiosity, however, was the announcement made on
+                the final page of the special, which claimed to be the
+                beginning of a new arc for the story. The news caught
+                everyone by surprise and left us confused at the same time.
+                Without confirming anything, fans remain in wait for the
+                announcement of the continuation of the manga as well.
+            </p>
+        </section>
+        <section class="getsuga">
+            <h2 class="getsuga__title">Protagonist</h2>
+            <img class="getsuga__img-inline" src="img/𝐈𝐜𝐡𝐢𝐠𝐨 𝐊𝐮𝐫𝐨𝐬𝐚𝐤𝐢 𝐈𝐜𝐨𝐧.jpeg"
+                alt="Foto do Ichigo" />
+            <div class="getsuga__text-inline"></div>
+            <p>
+                Bleach tells the story of Ichigo Kurosaki, a 15-year-old with
+                orange hair, a guy with few friends (and so is often mistaken
+                for a delinquent) and very intelligent, but who has a very
+                unusual secret: he has always been able to communicate with
+                spirits.
+            </p>
+            <br><br>
+            <p>
+                Combining this ability with the fact that he was a very kind
+                person, Ichigo always began to help the souls that asked for
+                help. Until one night he meets a Shinigami (goddess of Death)
+                and is attacked by a Hollow (evil spirit), making his life
+                completely change.
+            </p>
+            </div>
+        </section>
+        <section id="Thousand" class="getsuga">
+            <h2 class="getsuga__title">Bleach: Thousand-Year Blood War</h2>
+            <img class="getsuga__img" src="img/💀𝑩𝒍𝒆𝒂𝒄𝒉 𝑻𝒀𝑩𝑾💀.jpeg" alt="Foto de Bleach Thousand-Year" />
+            <p class="getsuga__text">
+                The great curiosity, however, was the announcement made on
+                the final page of the special, which claimed to be the
+                beginning of a new arc for the story. The news caught
+                everyone by surprise and left us confused at the same time.
+                Without confirming anything, fans remain in wait for the
+                announcement of the continuation of the manga as well.
+            </p>
+        </section>
+        <section class="getsuga">
+            <h2 class="getsuga__title">Creator</h2>
+            <img class="getsuga__img-inline" src="img/unnamed.jpg" alt="Foto do Tite Kubo" />
+            <div class="getsuga__text-inline"></div>
+            <p>
+                Kubo began drawing manga during high school, in which he was part of the
+                Anime Club. It was also in high school that he created his first manga: Zombie
+                Powder, which was published weekly in Shonen Jump magazine. However,
+                with the lack of success of the manga, the series was canceled after reaching
+                4 volumes.
+            </p>
+            <br><br>
+            <p>
+                Later in his career, after the failure with ZP, Kubo created a new manga, called
+                Bleach, and sent it to Weekly Shonen Jump, hoping that the manga would be
+                published. However, Bleach was rejected due to similarities with the manga
+                Yu Yu Hakusho that was being published by the magazine at the time.
+            </p>
+            <br><br>
+            <p>
+                Even though Bleach impressed the group of readers who controlled the series
+                edited by the magazine, the rejection caused Kubo to lose hope. This changed
+                when Dragon Ball author Akira Toriyama sent Kubo a letter reassuring him and
+                inspiring him to continue with the manga, saying he had enjoyed his work very
+                much. After this, Tite again took the manga to the Shonen Jump, which, to
+                surprise, was accepted this time. Bleach is now published weekly by Weekly
+                Shonen Jump and currently surpassing 400 published chapters.
+
+            </p>
+            <br><br>
+            </div>
+        </section>
+        <section class="getsuga">
+            <h2 class="getsuga__title">Transformations</h2>
+            <div class="gallery">
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/𝐈𝐜𝐡𝐢𝐠𝐨 𝐊𝐮𝐫𝐨𝐬𝐚𝐤𝐢 𝐈𝐜𝐨𝐧 2.jpeg"
+                        alt="ichigo normal" />
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/download (1).jpeg" alt="ichigo bankai">
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/Ichigo.jpeg" alt="vaizard">
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/download (2).jpeg" alt="vasto lorde">
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/Kurosaki Ichigo _ Bleach.jpeg" alt="mugetsu">
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/🐐.jpeg" alt="fullbring">
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/Ichigo (1).jpeg" alt="shikai fullbring">
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/🔌.jpeg" alt="bankai fullbring">
+                </span>
+
+                <span class="gallery__form-wrapper">
+                    <img class="gallery__form" src="img/𝑲𝒖𝒓𝒐𝒔𝒂𝒌𝒊 𝑰𝒄𝒉𝒊𝒈𝒐.jpeg" alt="full form">
+                </span>
+
+    </main>
+
+    <footer class="mugetsu__footer">
+        <div id="mugetsu_copy">
+        Os limites só existem se você os deixar existir &copy;
+        </div>
+    </footer>
+</body>
+
+</html>
