@@ -12,7 +12,7 @@ Um tributo visual aos 20 anos de Bleach, focado na jornada de Ichigo Kurosaki. E
 * **HTML5 Semântico:** Organização clara das seções do site.
 * **CSS Custom Properties:** Uso de variáveis (`:root`) para facilitar a manutenção de cores e temas.
 * **Typography:** Integração com Google Fonts (Source Code Pro).
-* **Design All Black:** Estética inspirada no visual "Mugetsu" do protagonista.
+* **Design All Black:** Estética inspirada no visual "Mugetsu" do protagonista. 
 
 ## 📖 Como visualizar
 1. Clone o repositório:
